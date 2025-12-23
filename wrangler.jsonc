@@ -1,0 +1,5 @@
+{
+  "name": "ip",
+  "compatibility_date": "2025-12-23",
+  "main": "worker.js"
+}

@@ -1,7 +1,7 @@
 import htmlContent from "./docs.html";
 
 export default {
-  async fetch(request, env) {
+  fetch(request) {
     const url = new URL(request.url);
     const ip = request.headers.get("cf-connecting-ip") || "0.0.0.0";
 

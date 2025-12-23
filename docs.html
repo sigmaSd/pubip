@@ -45,15 +45,6 @@
       border-left: 4px solid #3498db;
       margin: 15px 0;
     }
-    .note {
-      background: #fff3cd;
-      padding: 15px;
-      border-left: 4px solid #ffc107;
-      margin: 20px 0;
-    }
-    .note strong {
-      color: #856404;
-    }
   </style>
 </head>
 <body>
@@ -84,15 +75,6 @@
   <pre><code>import requests
 response = requests.get('{{ORIGIN}}/api')
 print(response.json()['ip'])</code></pre>
-  
-  <div class="note">
-    <strong>Privacy Note:</strong> Your actual IP address is not stored or logged by this service. 
-    We hash IP addresses with a cryptographic salt for anonymous statistics only. 
-    The hashed values cannot be reversed to reveal your original IP address.
-    <br><br>
-    Note: While this service doesn't log your IP, Cloudflare (the infrastructure provider) 
-    may have access to connection metadata as part of their CDN services.
-  </div>
   
   <h2>CORS</h2>
   <p>This API supports Cross-Origin Resource Sharing (CORS), so you can call it from any domain.</p>

@@ -3,6 +3,8 @@
 A lightweight Cloudflare Worker that returns the user's public IP address in
 JSON format.
 
+https://ip.sigmasd.workers.dev/
+
 ## Features
 
 - **Fast & Simple**: Minimal logic for maximum performance.
